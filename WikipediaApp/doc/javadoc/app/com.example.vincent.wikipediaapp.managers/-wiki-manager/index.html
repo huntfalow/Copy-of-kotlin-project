@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>WikiManager - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vincent.wikipediaapp.managers</a>&nbsp;/&nbsp;<a href="./index.html">WikiManager</a><br/>
+<br/>
+<h1>WikiManager</h1>
+<code><span class="keyword">class </span><span class="identifier">WikiManager</span></code>
+<p>This class is used as the manager, this manages al out repositories and al it's functions and the DataProvider</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">WikiManager</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$<init>(com.example.vincent.wikipediaapp.providers.ArticleDataProvider, com.example.vincent.wikipediaapp.repositories.FavoritesRepository, com.example.vincent.wikipediaapp.repositories.HistoryRepository)/provider">provider</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.providers/-article-data-provider/index.html"><span class="identifier">ArticleDataProvider</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$<init>(com.example.vincent.wikipediaapp.providers.ArticleDataProvider, com.example.vincent.wikipediaapp.repositories.FavoritesRepository, com.example.vincent.wikipediaapp.repositories.HistoryRepository)/favoritesRepository">favoritesRepository</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.repositories/-favorites-repository/index.html"><span class="identifier">FavoritesRepository</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$<init>(com.example.vincent.wikipediaapp.providers.ArticleDataProvider, com.example.vincent.wikipediaapp.repositories.FavoritesRepository, com.example.vincent.wikipediaapp.repositories.HistoryRepository)/historyRepository">historyRepository</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.repositories/-history-repository/index.html"><span class="identifier">HistoryRepository</span></a><span class="symbol">)</span></code>
+<p>This class is used as the manager, this manages al out repositories and al it's functions and the DataProvider</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-favorite.html">addFavorite</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addFavorite</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$addFavorite(com.example.vincent.wikipediaapp.models.WikiePage)/page">page</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we add an article to the favorites list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="add-history.html">addHistory</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addHistory</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$addHistory(com.example.vincent.wikipediaapp.models.WikiePage)/page">page</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we add an article to the history list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="clear-history.html">clearHistory</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">clearHistory</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we clear the history</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-favorites.html">getFavorites</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getFavorites</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">&gt;</span><span class="symbol">?</span></code>
+<p>In this function we get the favorites of a user</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-history.html">getHistory</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getHistory</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">&gt;</span><span class="symbol">?</span></code>
+<p>In this function we get the history of a user</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-is-favorite.html">getIsFavorite</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getIsFavorite</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$getIsFavorite(kotlin.Int)/pageId">pageId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>In this function we get a favorite from the favorites list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-random.html">getRandom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getRandom</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$getRandom(kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/take">take</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$getRandom(kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/handler">handler</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">result</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wiki-result/index.html"><span class="identifier">WikiResult</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we get random articles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="remove-favorite.html">removeFavorite</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeFavorite</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$removeFavorite(kotlin.Int)/pageId">pageId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we remove a favorite from the favorites list</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="search.html">search</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">search</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/term">term</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/skip">skip</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/take">take</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.managers.WikiManager$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/handler">handler</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">result</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wiki-result/index.html"><span class="identifier">WikiResult</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we search for an article</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

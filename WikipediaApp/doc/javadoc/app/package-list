@@ -1,0 +1,12 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+com.example.vincent.wikipediaapp
+com.example.vincent.wikipediaapp.activities
+com.example.vincent.wikipediaapp.adapters
+com.example.vincent.wikipediaapp.fragments
+com.example.vincent.wikipediaapp.holders
+com.example.vincent.wikipediaapp.managers
+com.example.vincent.wikipediaapp.models
+com.example.vincent.wikipediaapp.providers
+com.example.vincent.wikipediaapp.repositories

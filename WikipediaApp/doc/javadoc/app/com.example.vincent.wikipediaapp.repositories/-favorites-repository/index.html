@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>FavoritesRepository - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vincent.wikipediaapp.repositories</a>&nbsp;/&nbsp;<a href="./index.html">FavoritesRepository</a><br/>
+<br/>
+<h1>FavoritesRepository</h1>
+<code><span class="keyword">class </span><span class="identifier">FavoritesRepository</span></code>
+<p>This class is used as the repository for the favorites, all the functions needed for the favorites are here</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">FavoritesRepository</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.repositories.FavoritesRepository$<init>(com.example.vincent.wikipediaapp.repositories.ArticleDatabaseOpenHelper)/databaseHelper">databaseHelper</span><span class="symbol">:</span>&nbsp;<a href="../-article-database-open-helper/index.html"><span class="identifier">ArticleDatabaseOpenHelper</span></a><span class="symbol">)</span></code>
+<p>This class is used as the repository for the favorites, all the functions needed for the favorites are here</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="database-helper.html">databaseHelper</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">databaseHelper</span><span class="symbol">: </span><a href="../-article-database-open-helper/index.html"><span class="identifier">ArticleDatabaseOpenHelper</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-favorite.html">addFavorite</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addFavorite</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.repositories.FavoritesRepository$addFavorite(com.example.vincent.wikipediaapp.models.WikiePage)/page">page</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we add an article to the favorites table (SQLlite DB)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-all-favorites.html">getAllFavorites</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getAllFavorites</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">&gt;</span></code>
+<p>In this function we get all the articles from the favorites table (SQLlite DB)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-article-favorite.html">isArticleFavorite</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">isArticleFavorite</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.repositories.FavoritesRepository$isArticleFavorite(kotlin.Int)/pageId">pageId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="remove-favorite-by-id.html">removeFavoriteById</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeFavoriteById</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.repositories.FavoritesRepository$removeFavoriteById(kotlin.Int)/pageId">pageId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we remove an article from the favorites table (SQLlite DB)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

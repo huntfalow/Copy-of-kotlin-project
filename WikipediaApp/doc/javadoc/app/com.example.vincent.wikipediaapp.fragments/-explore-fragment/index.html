@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ExploreFragment - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vincent.wikipediaapp.fragments</a>&nbsp;/&nbsp;<a href="./index.html">ExploreFragment</a><br/>
+<br/>
+<h1>ExploreFragment</h1>
+<code><span class="keyword">class </span><span class="identifier">ExploreFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Fragment</span></code>
+<p>This fragment its purpose is to display display everything on the explore page</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ExploreFragment</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>This fragment its purpose is to display display everything on the explore page</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="adapter.html">adapter</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">adapter</span><span class="symbol">: </span><a href="../../com.example.vincent.wikipediaapp.adapters/-article-card-recycler-adapter/index.html"><span class="identifier">ArticleCardRecyclerAdapter</span></a></code>
+<p>used for filling up the recyclerview</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="explore-recycler.html">exploreRecycler</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">exploreRecycler</span><span class="symbol">: </span><span class="identifier">RecyclerView</span><span class="symbol">?</span></code>
+<p>used for displaying the articles on the page</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="refresher.html">refresher</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">refresher</span><span class="symbol">: </span><span class="identifier">SwipeRefreshLayout</span><span class="symbol">?</span></code>
+<p>used for refreshing the page</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="search-card-view.html">searchCardView</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">searchCardView</span><span class="symbol">: </span><span class="identifier">CardView</span><span class="symbol">?</span></code>
+<p>used for starting the search activity</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-attach.html">onAttach</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onAttach</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.fragments.ExploreFragment$onAttach(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view.html">onCreateView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.fragments.ExploreFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.fragments.ExploreFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.fragments.ExploreFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code>
+<p>This function is used for creating the view and showing the random articles</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

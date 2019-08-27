@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ArticleDataProvider - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vincent.wikipediaapp.providers</a>&nbsp;/&nbsp;<a href="./index.html">ArticleDataProvider</a><br/>
+<br/>
+<h1>ArticleDataProvider</h1>
+<code><span class="keyword">class </span><span class="identifier">ArticleDataProvider</span></code>
+<p>This class is used providing all the data</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-wikipedia-data-deserializer/index.html">WikipediaDataDeserializer</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">WikipediaDataDeserializer</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">ResponseDeserializable</span><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.models/-wiki-result/index.html"><span class="identifier">WikiResult</span></a><span class="symbol">&gt;</span></code>
+<p>In this function we deserialize the data</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ArticleDataProvider</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>This class is used providing all the data</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-random.html">getRandom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getRandom</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$getRandom(kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/take">take</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$getRandom(kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/responseHandler">responseHandler</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">result</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wiki-result/index.html"><span class="identifier">WikiResult</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we get the data when we want random articles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="search.html">search</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">search</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/term">term</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/skip">skip</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/take">take</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.providers.ArticleDataProvider$search(kotlin.String, kotlin.Int, kotlin.Int, kotlin.Function1((com.example.vincent.wikipediaapp.models.WikiResult, kotlin.Unit)))/responseHandler">responseHandler</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">result</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.models/-wiki-result/index.html"><span class="identifier">WikiResult</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we get the data when we search for an article</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ArticleCardRecyclerAdapter - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vincent.wikipediaapp.adapters</a>&nbsp;/&nbsp;<a href="./index.html">ArticleCardRecyclerAdapter</a><br/>
+<br/>
+<h1>ArticleCardRecyclerAdapter</h1>
+<code><span class="keyword">class </span><span class="identifier">ArticleCardRecyclerAdapter</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Adapter</span><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.holders/-card-holder/index.html"><span class="identifier">CardHolder</span></a><span class="symbol">&gt;</span></code>
+<p>This adapter is used for the Recyclerview of the articles when you are on the explore page or on the favorites page</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ArticleCardRecyclerAdapter</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>This adapter is used for the Recyclerview of the articles when you are on the explore page or on the favorites page</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="current-results.html">currentResults</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">currentResults</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><a href="../../com.example.vincent.wikipediaapp.models/-wikie-page/index.html"><span class="identifier">WikiePage</span></a><span class="symbol">&gt;</span></code>
+<p>is a list of the wikipages that wil be displayed</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-item-count.html">getItemCount</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getItemCount</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>In this function we get the size of the list of the wikipages</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-bind-view-holder.html">onBindViewHolder</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBindViewHolder</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.adapters.ArticleCardRecyclerAdapter$onBindViewHolder(com.example.vincent.wikipediaapp.holders.CardHolder, kotlin.Int)/p0">p0</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vincent.wikipediaapp.holders/-card-holder/index.html"><span class="identifier">CardHolder</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.adapters.ArticleCardRecyclerAdapter$onBindViewHolder(com.example.vincent.wikipediaapp.holders.CardHolder, kotlin.Int)/position">position</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>In this function we will update our view</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view-holder.html">onCreateViewHolder</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateViewHolder</span><span class="symbol">(</span><span class="identifier" id="com.example.vincent.wikipediaapp.adapters.ArticleCardRecyclerAdapter$onCreateViewHolder(android.view.ViewGroup, kotlin.Int)/p0">p0</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vincent.wikipediaapp.adapters.ArticleCardRecyclerAdapter$onCreateViewHolder(android.view.ViewGroup, kotlin.Int)/viewType">viewType</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="../../com.example.vincent.wikipediaapp.holders/-card-holder/index.html"><span class="identifier">CardHolder</span></a></code>
+<p>In this function we get a carditem</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
